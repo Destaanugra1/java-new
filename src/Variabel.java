@@ -10,5 +10,19 @@ public class Variabel {
         System.out.println(name);
         System.out.println(age);
         System.out.println(address);
+
+        var fristName = "Desta";
+        var middleName = "Anugra";
+        var lastName = "Pratama";
+
+        var company = "UMKO";
+
+        var all = fristName + middleName + lastName + company;
+
+        System.out.println(all);
+
+//        constant
+        final String apllikasi = "test java";
+
     }
 }
